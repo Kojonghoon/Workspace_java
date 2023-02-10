@@ -1,0 +1,20 @@
+
+12월 29, 2022 16:24:22.319 NEW SESSION
+12월 29, 2022 16:24:22.319 [19940:15364:1229/162422.310:ERROR:device_event_log_impl.cc(215)] [16:24:22.309] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+12월 29, 2022 16:24:22.319 [19940:15364:1229/162422.311:ERROR:device_event_log_impl.cc(215)] [16:24:22.311] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 29, 2022 16:25:20.281 [19940:20916:1229/162520.280:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+1월 31, 2023 14:42:27.720 NEW SESSION
+1월 31, 2023 14:42:27.720 [11216:24912:0131/144227.718:ERROR:device_event_log_impl.cc(215)] [14:42:27.719] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+1월 31, 2023 14:42:27.720 [11216:24912:0131/144227.720:ERROR:device_event_log_impl.cc(215)] [14:42:27.720] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+1월 31, 2023 14:43:25.707 [11216:33460:0131/144325.707:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+1월 31, 2023 14:48:29.26 [18208:32308:0131/144829.026:ERROR:device_event_log_impl.cc(215)] [14:48:29.026] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+1월 31, 2023 14:48:29.31 [18208:32308:0131/144829.031:ERROR:device_event_log_impl.cc(215)] [14:48:29.031] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+1월 31, 2023 14:49:05.34 [33504:5320:0131/144905.034:ERROR:device_event_log_impl.cc(215)] [14:49:05.034] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+1월 31, 2023 14:49:05.37 [33504:5320:0131/144905.037:ERROR:device_event_log_impl.cc(215)] [14:49:05.037] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+1월 31, 2023 14:49:29.433 [19572:11844:0131/144929.433:ERROR:device_event_log_impl.cc(215)] [14:49:29.433] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+1월 31, 2023 14:49:29.437 [19572:11844:0131/144929.437:ERROR:device_event_log_impl.cc(215)] [14:49:29.435] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+1월 31, 2023 14:50:27.361 [19572:1004:0131/145027.361:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+1월 31, 2023 15:04:44.891 [4200:6856:0131/150444.891:ERROR:device_event_log_impl.cc(215)] [15:04:44.891] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+1월 31, 2023 15:04:44.896 [4200:6856:0131/150444.896:ERROR:device_event_log_impl.cc(215)] [15:04:44.893] USB: usb_service_win.cc:415 Could not read device interface GUIDs: ������ ������ ã�� �� �����ϴ�. (0x2)
+1월 31, 2023 15:05:42.846 [4200:28936:0131/150542.840:ERROR:util.cc(134)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

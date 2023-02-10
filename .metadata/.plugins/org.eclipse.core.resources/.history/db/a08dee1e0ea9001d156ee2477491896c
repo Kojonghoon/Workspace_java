@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<table border="1" bordercolor="gray" width="100%" height="100%">
+	<tr>
+		<td>
+			<script type="text/javascript">
+	//호출하지 않아도 자돈실행
+	//jquery(document)
+	//window <-document<-ready(function(){실행문:변수선언, if문, switch문, i+j}) 함수
+	$(document).ready(()=>{
+		//실행문
+		start =()=>{
+			setInterval(autoReload,2000);
+		}
+		//function start(){}
+		start();
+	})//end of ready
+	</script>
+	<div id="d_news">뉴스준비중.....</div>
+	<%
+		out.print("<font color='red'size=10>이것이 헤드라인...</font>");
+	%>
+	<script>
+	  const autoReload =()=>{
+		console.log('autoReload 호출')
+		//ajax함수는 jqeury.min.js가 제공하는 api이다
+		//ajax함수는 결국 XMLHttpRequest대신함
+		//const ajax = new XMLHttpRequest();
+		//ajax.open("GET",url,false)
+		//ajax.send()
+		$.ajax({
+	          type: "GET",
+	          url: "newsList.jsp",
+	          dataType:"html",
+	          success: function (data) {//성공했을 때
+	            //console.log(data);  
+	            $("#d_news").html(data);
+	          },
+	          error:function(request,status,error){
+	        	  console.log('error')
+	        	  console.log('error'+request.status)
+	        	  console.log('error'+request.responseText)
+	          }
+	        });
+	  }
+	</script>
+		</td>
+		
+	</tr>
+</table>
