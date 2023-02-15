@@ -68,7 +68,7 @@
 	
 	Java는 브라우저에 쓸 수 없다.
 	
-	System.out.println("<b>굵은글씨</b>"
+	System.out.println("<b>굵은글씨</b>")
 	
 	out.print();
 	

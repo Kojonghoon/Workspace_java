@@ -6,22 +6,23 @@
     </context-param>
     
     <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>com.day1.HelloServlet</servlet-class>
+    	<servlet-name>DeptManager</servlet-name>
+    	<servlet-class>com.day1.DeptManager</servlet-class>
     </servlet>
     
     <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    	<url-pattern>/day1/hello.kh</url-pattern>
+    	<servlet-name>DeptManager</servlet-name>
+    	<url-pattern>/jEasyUI/dept/insertAction.do</url-pattern>
     </servlet-mapping>
     
     <servlet>
-    <servlet-name>DeptManager</servlet-name>
-    <servlet-class>com.day1.DeptManager</servlet-class>
+    	<servlet-name>HelloServlet</servlet-name>
+    	<servlet-class>com.day1.HelloServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
-    <servlet-name>DeptManager</servlet-name>
-    	<url-pattern>/dept/insertAction.do</url-pattern>
+    	<servlet-name>HelloServlet</servlet-name>
+    	<url-pattern>/day1/hello.kh</url-pattern>
     </servlet-mapping>
+
 </web-app>
